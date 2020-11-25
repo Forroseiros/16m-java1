@@ -13,7 +13,7 @@ public class Calculator {
     }
 
     public static void test(double a, double b) {
-
+        System.out.println();
     }
 
     public static void additionTwo(int weight, int height) {
