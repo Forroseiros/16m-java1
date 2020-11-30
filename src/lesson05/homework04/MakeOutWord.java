@@ -1,4 +1,4 @@
-package homework04;
+package lesson05.homework04;
 
 /**
  * Java-m1-16m
