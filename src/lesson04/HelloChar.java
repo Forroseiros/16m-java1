@@ -5,7 +5,9 @@ public class HelloChar {
     public static void main(String[] args) {
         char zahl = 100;
         System.out.println(zahl);
-        char octal = '\u039A';
+        char octal = '\u00A9';
+        char test = '\u217B';
+        System.out.println(test);
         System.out.println(octal);
         char euroSymbol = '€';
         System.out.println(euroSymbol);
