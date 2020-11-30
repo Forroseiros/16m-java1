@@ -12,9 +12,31 @@ public class Exercises01 {
         System.out.println(smartDepositBoxVersionTwo(false, true)); // false
         System.out.println(smartDepositBoxVersionTwo(false, false));// false
         System.out.println(smartDepositBoxVersionTwo(true, true)); //true
+        split();
+        System.out.println("verySmartDepositBoxVersionThree");
+
+        boolean mamaPermission, papaPermission, omaPermission;
+        mamaPermission = true;
+        papaPermission = true;
+        omaPermission = true;
+        System.out.println(
+                verySmartDepositBoxVersionThree
+                        (mamaPermission, papaPermission, omaPermission));
     }
 
-    public static boolean smartDepositBoxVersionTwo(boolean mama, boolean papa) {
+
+    public static boolean verySmartDepositBoxVersionThree
+            (boolean mama, boolean papa, boolean oma) {
+        return smartDepositBoxVersionTwo(mama, papa) || oma;
+    }
+
+    public static boolean verySmartDepositBoxVersionThreeSecond
+            (boolean mama, boolean papa, boolean oma) {
+        return (mama && papa) || oma;
+    }
+
+    public static boolean smartDepositBoxVersionTwo
+            (boolean mama, boolean papa) {
         return mama && papa;
     }
 
