@@ -2,7 +2,7 @@ package lesson06;
 
 public class MySwitchCalendar {
     public static void main(String[] args) {
-        int myUnknownMonth = 12;
+        int myUnknownMonth = 15;
         System.out.println(intToStringMonthName(myUnknownMonth));
        // System.out.println(intToStringMonthName(6));
         // https://emmet.io/
