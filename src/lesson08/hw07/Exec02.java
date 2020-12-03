@@ -1,4 +1,4 @@
-package hw07;
+package lesson08.hw07;
 
 public class Exec02 {
     public static void main(String[] args) {
