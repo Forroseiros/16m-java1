@@ -13,7 +13,6 @@ public class Excesises {
         System.out.println();
         for (int i = 0; i < b; i++) {
             System.out.print(a + " ");
-
         }
     }
 }
