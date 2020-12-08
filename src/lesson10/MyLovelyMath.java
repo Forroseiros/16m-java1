@@ -8,4 +8,8 @@ public class MyLovelyMath {
             return a;
         }
     }
+
+    public static void main(String[] args) {
+        myMin(4,5);
+    }
 }
