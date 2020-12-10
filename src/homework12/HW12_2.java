@@ -9,7 +9,7 @@ public class HW12_2 {
         System.out.println(lessBy10(11, 1, 7));// → true
     }
 
-    private static boolean lessBy10(int a, int b, int c) {
+    private static boolean lessBy10Second(int a, int b, int c) {
         if (a <= b - 10 || a <= c - 10) {
             return true;
         } else if (b <= a - 10 || b <= c - 10) {
@@ -18,5 +18,11 @@ public class HW12_2 {
             return true;
         }
         return false;
+    }
+
+    private static boolean lessBy10(int a, int b, int c) {
+        return Math.abs(a - b) >= 10
+                || Math.abs(b - c) >= 10
+                || Math.abs(c - a) >= 10;
     }
 }
