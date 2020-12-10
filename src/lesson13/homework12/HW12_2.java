@@ -1,4 +1,4 @@
-package homework12;
+package lesson13.homework12;
 
 public class HW12_2 {
     // Given three ints, a b c, return true if one of them is 10

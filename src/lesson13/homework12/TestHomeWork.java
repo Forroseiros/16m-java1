@@ -1,4 +1,4 @@
-package homework12;
+package lesson13.homework12;
 
 import lesson12.MyColor;
 
