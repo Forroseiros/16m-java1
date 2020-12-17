@@ -1,4 +1,4 @@
-package homework16;
+package lesson17.homework16;
 
 public class Exec3 {
     public static void main(String[] args) {
