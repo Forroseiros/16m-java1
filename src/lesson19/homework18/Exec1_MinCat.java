@@ -1,4 +1,4 @@
-package homework18;
+package lesson19.homework18;
 
 public class Exec1_MinCat {
     public static void main(String[] args) {
