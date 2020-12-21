@@ -7,10 +7,11 @@ public class Main {
         printArrayForEach(array);
     }
 
-    private static void printArrayForEach(int[] array) {
+    public static void printArrayForEach(int[] array) {
         for (int elementik : array) {
             System.out.print(elementik + ", ");
         }
+        System.out.println();
     }
 
     private static void printArray(int[] input) {
