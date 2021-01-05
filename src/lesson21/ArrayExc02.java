@@ -1,4 +1,4 @@
-package lesson21.hw20;
+package lesson21;
 
 import lesson20.Main;
 
@@ -11,7 +11,6 @@ public class ArrayExc02 {
         Main.printArrayForEach(makeMiddle(a1));//[2, 3]
         Main.printArrayForEach(makeMiddle(a2));// [2, 3]
         Main.printArrayForEach(makeMiddle(a3));//[1, 2]
-
     }
 
     public static int[] makeMiddle(int[] input) {
