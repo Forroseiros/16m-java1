@@ -85,13 +85,13 @@ public class Homework22 {
     private static void print(double[] array) {
         System.out.print("[ ");
         for (int i = 0; i < array.length - 1; i++) {
-            System.out.print(format(array[i]) + ", ");
+            System.out.print(format(array[i], i) + ", ");
         }
-        System.out.print(format(array[array.length - 1]));
+        System.out.print(format(array[array.length - 1], array.length - 1));
         System.out.println("]");
     }
 
-    private static String format(double var) {
+    private static String format(double var, int index) {
         final String ANSI_RESET = "\u001B[0m";
         String result = "" + var + ANSI_RESET;
 
@@ -114,7 +114,9 @@ public class Homework22 {
         final String ANSI_WHITE_BACKGROUND = "\u001B[47m";
 
         int input = (int) var;
-        int myModuloTen = input % 10;
+        //int myModuloTen = input % 10;
+        int myModuloTen = index % 10;
+
         if (myModuloTen == 0) {
             result = ANSI_CYAN + result;
         } else if (myModuloTen == 1) {
