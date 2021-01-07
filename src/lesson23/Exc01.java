@@ -28,7 +28,6 @@ public class Exc01 {
         System.out.println(sum3(var5));// → 18
         System.out.println(sum3(var6));// → 7
         System.out.println(sum3(var7));// → 19
-
     }
 
     private static int sum3(int[] arr) {
