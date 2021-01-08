@@ -1,5 +1,6 @@
 package lesson25;
 
+import java.util.Arrays;
 
 public class MultiArrays {
     public static void main(String[] args) {
@@ -12,7 +13,12 @@ public class MultiArrays {
     }
 
     private static void intro5() {
-        //int[] arr
+        int[] arr = {1,2,3,4,5,6,7,8};
+
+        String myTestString = Arrays.toString(arr);
+        System.out.println(myTestString);
+
+        System.out.println(Arrays.toString(arr));
     }
 
     private static void intro4() {
