@@ -1,4 +1,4 @@
-package hw27;
+package lesson28.hw27;
 
 
 public class Homework27Solution {
