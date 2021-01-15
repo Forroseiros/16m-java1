@@ -7,6 +7,7 @@ public class Duck {
     String name;
     int rangeAge;
 
+    @Deprecated
     void quacks() {
         System.out.println("Duck quacks // Уточка крякает");
     }
@@ -29,6 +30,7 @@ public class Duck {
 
 class DuckTest {
     public static void main(String[] args) {
+        int a = 10;
         Duck donald = new Duck();
         donald.name = "Дональд";
         Duck daisy = new Duck();
@@ -37,6 +39,7 @@ class DuckTest {
         daffy.name = "Даффи";
         Duck[] newDuckArray = new Duck[]{donald, daisy, goofy};
         System.out.println(newDuckArray[0].name);
+        System.out.println(donald.name);
         newDuckArray[0] = daffy;
         System.out.println(newDuckArray[0].name);
 
@@ -46,5 +49,10 @@ class DuckTest {
         System.out.println("Состояние спидометра уточки " + goofy.rangeAge);
         goofy.swims(300);
         System.out.println(goofy.rangeAge);
+        goofy.quacks();
+
+        newDuckArray[1].name = "ЛОВЕЛИ Дэйзи";
+        System.out.println(daisy.name);
+
     }
 }
